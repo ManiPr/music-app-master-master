@@ -1,0 +1,18 @@
+.mood{
+    position: relative;
+  }
+  .mood__image{
+    cursor: pointer;
+  }
+  .mood:hover:before{
+    content: '';
+    background:var(--bg-hover);
+    position:absolute;
+    width: 92%;
+    height: 95%;
+    opacity: 50%;
+    border-radius: 1rem;
+    top: 0;
+    cursor: pointer;
+  }
+  

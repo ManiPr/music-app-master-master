@@ -1,0 +1,65 @@
+.nav{
+    margin-top: 3rem;
+}
+.nav__wrapper{
+    justify-content: space-between;
+    padding: 0 4rem;
+}
+.nav__left{
+    gap: 4rem;
+}
+.nav__logo{
+
+}
+.nav__menus{
+    gap: 2rem;
+    color: var(--gray);
+    cursor: pointer;
+}
+.nav__menus:hover{
+   
+}
+.nav__menu{
+    transition: all .5s ease;
+}
+.nav__menu:hover{
+    color: var(--white);
+}
+.nav__right{
+    position: relative;
+    gap: 2rem;
+}
+.nav__serch{
+    border: none;
+    outline: none;
+    padding: .7rem 1rem;
+    border-radius: 5rem;
+    background-color: var(--gray);
+    color: var(--white);
+}
+.nav__personal{
+    cursor: pointer;
+    gap: 1rem;
+}
+.nav__user-name{
+
+}
+.nav__dahs{
+    position: absolute;
+    right: -1.4rem;
+    top: 1.4rem;
+}
+.browse-menus{
+    gap: 3rem;
+}
+.browse-menu{
+    transition: all .1s;
+    color:var(--white);
+}
+.browse-menu:hover{
+    color:var(--text-hover);
+}
+.browse-menu:hover{
+    color:var(--text-hover);
+ }
+ 

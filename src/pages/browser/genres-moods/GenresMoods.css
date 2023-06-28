@@ -1,0 +1,42 @@
+.genreses{
+
+}
+.genreses__wrapper{
+
+}
+.genreses__top{
+margin: 0 15rem;
+}
+.genreses__title{
+}
+.genreses__genres{
+ display: grid;
+ grid-template-rows: repeat(3,1fr);
+ grid-template-columns: repeat(6,1fr);
+ margin: 0 15rem;
+}
+.category:hover:before{
+    width: 87%;
+}
+.moodes{
+
+}
+.moodes__wrapper{
+margin: 0 15rem;
+}
+.moodes__top{
+
+}
+.moodes__title {
+
+}
+.moodes__genres{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(6,1fr);
+}
+  
+.category:hover:before{
+    width: 92%;
+}
+  

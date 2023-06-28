@@ -1,0 +1,64 @@
+/* 
+
+- Header
+
+*/
+.header{    
+    background-image: url("../../assets/images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 75vh;
+    margin-top: -12rem;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem 0 10rem;
+}
+.header__left{
+
+}
+.header__logo{
+
+}
+.header__right{
+    display: flex;
+    align-items: center;
+}  
+.header__btn{
+   border-radius: 3rem;
+   background-color: transparent;
+   padding: 1rem 4rem;
+   margin-right: 1rem;
+   border: solid .1rem var(--white);
+   color: var(--white);
+   cursor: pointer;
+}
+.header__btn:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+.header__content{
+    text-align: center;
+    margin-top: 20rem;
+    color: var(--white);
+}
+.header__title{
+    font-size: 5rem;
+    padding: 0 2rem;
+    font-family: var(--font-lato);
+}
+.header__button{
+    border-radius: 3rem;
+    padding: 1rem 5rem;
+    background-color: transparent;
+    border: solid .1rem var(--white);
+    color: var(--white);
+    font-size: 2rem;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+.header__button:hover{
+    background-image: linear-gradient(to right,#30B8F3,  #3196EF, #685FEF);
+}

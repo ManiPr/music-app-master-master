@@ -1,0 +1,23 @@
+.artist{
+position: relative;
+text-align: center;
+}
+.artist__image{
+    border-radius: 50%;
+}
+.artist__name{
+
+}
+.artist:hover:before{
+    content: '';
+    background:var(--bg-hover);
+    position:absolute;
+    width: 100%;
+    height: 86%;
+    opacity: 50%;
+    top: 0;
+    border-radius: 50%;
+    cursor: pointer;
+   
+}
+  

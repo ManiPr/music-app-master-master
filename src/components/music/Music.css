@@ -1,0 +1,29 @@
+.music{
+    position: relative;
+}
+.music:hover:before{
+    content: '';
+    background:var(--bg-hover);
+    position:absolute;
+    width: 100%;
+    height: 86%;
+    opacity: 50%;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.music__content{
+    gap: 2rem;
+    position:absolute;
+    top: 10rem;
+    right: 5rem;
+    display: none;
+}
+.music:hover .music__content {
+    display: flex;
+}
+.music__image{
+
+}
+.music__name{
+
+}
