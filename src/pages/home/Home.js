@@ -22,11 +22,6 @@ export default function Home() {
             </div>
             <div className='recently-played__musics section-box center'>
             <Music></Music>
-            <Music></Music>
-            <Music></Music>
-            <Music></Music>
-            <Music></Music>
-            <Music></Music>
             </div>
             
           </div>
@@ -55,11 +50,6 @@ export default function Home() {
             <p className='days__view'>View All</p>
             </div>
             <div className='days__musics section-box center'>
-            <Music></Music>
-            <Music></Music>
-            <Music></Music>
-            <Music></Music>
-            <Music></Music>
             <Music></Music>
             </div>
             
@@ -97,11 +87,6 @@ export default function Home() {
             </div>
             <div className='playlist__musics section-box center'>
             <Music></Music>
-            <Music></Music>
-            <Music></Music>
-            <Music></Music>
-            <Music></Music>
-            <Music></Music>
             </div>
           </div>
         </div>
@@ -114,11 +99,6 @@ export default function Home() {
             <p className='new-releases__view'>View All</p>
             </div>
             <div className='new-releases__musics section-box center'>
-            <Music></Music>
-            <Music></Music>
-            <Music></Music>
-            <Music></Music>
-            <Music></Music>
             <Music></Music>
             </div>
             

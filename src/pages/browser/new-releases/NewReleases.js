@@ -18,11 +18,7 @@ export default function NewReleases() {
             </div>
             <div className='new-releases__musics section-box center'>
             <Music></Music>
-            <Music></Music>
-            <Music></Music>
-            <Music></Music>
-            <Music></Music>
-            <Music></Music>
+            
             </div>
             
           </div>
@@ -37,11 +33,7 @@ export default function NewReleases() {
               </div>
               <div className='rock-newreleases__musics section-box center'>
               <Music></Music>
-              <Music></Music>
-              <Music></Music>
-              <Music></Music>
-              <Music></Music>
-              <Music></Music>
+              
               </div>
               
             </div>

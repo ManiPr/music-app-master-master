@@ -1,5 +1,6 @@
 .music{
     position: relative;
+    color: white;
 }
 .music:hover:before{
     content: '';
