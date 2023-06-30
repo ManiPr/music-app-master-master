@@ -9,8 +9,8 @@ export default function PodcastCategory() {
     {podcastCategory.length === 0 ? (
       <p>No artist data available.</p>
     ) : (
-      podcastCategory.map((category) => (
-        <div className='podcast-category'>
+      podcastCategory.map((category,index) => (
+        <div  key={index} className='podcast-category'>
         <img className='podcast-category__image' src={bgimage} />
         </div>
       ))

@@ -13,8 +13,8 @@ export default function Music() {
     {MusicData.length === 0 ? (
       <p>No music data available.</p>
     ) : (
-      MusicData.map((music) => (
-        <div className='music'>
+      MusicData.map((music,index) => (
+        <div  key={index} className='music'>
         <img className='music__image' src={playlist}/>
         <p className='music__name'>{music.Name}</p>
         <div className='music__content center'>

@@ -98,7 +98,8 @@ let MusicData =[
         "AddToLibrary":'false',
         'Play':'false',
         'Repeat':'false'
-    },   {
+    },   
+    {
         "Id":'12',
         "Name":'HEF',
         "Artist":'Koud',
@@ -107,6 +108,70 @@ let MusicData =[
         'Play':'false',
         'Repeat':'false'
     },
+
+    {
+        "Id":'13',
+        "Name":'HEF',
+        "Artist":'Koud',
+        'Image':{image},
+        "AddToLibrary":'false',
+        'Play':'false',
+        'Repeat':'false'
+    },
+    {
+        "Id":'14',
+        "Name":'HEF',
+        "Artist":'Koud',
+        'Image':{image},
+        "AddToLibrary":'false',
+        'Play':'false',
+        'Repeat':'false'
+    },
+    {
+        "Id":'15',
+        "Name":'HEF',
+        "Artist":'Koud',
+        'Image':{image},
+        "AddToLibrary":'false',
+        'Play':'false',
+        'Repeat':'false'
+    },
+    {
+        "Id":'16',
+        "Name":'HEF',
+        "Artist":'Koud',
+        'Image':{image},
+        "AddToLibrary":'false',
+        'Play':'false',
+        'Repeat':'false'
+    },
+      {
+        "Id":'17',
+        "Name":'HEF',
+        "Artist":'Koud',
+        'Image':{image},
+        "AddToLibrary":'false',
+        'Play':'false',
+        'Repeat':'false'
+    },
+      {
+        "Id":'18',
+        "Name":'HEF',
+        "Artist":'Koud',
+        'Image':{image},
+        "AddToLibrary":'false',
+        'Play':'false',
+        'Repeat':'false'
+    },  {
+        "Id":'19',
+        "Name":'HEF',
+        "Artist":'Koud',
+        'Image':{image},
+        "AddToLibrary":'false',
+        'Play':'false',
+        'Repeat':'false'
+    },
+
     
 ]
 let artistData=[

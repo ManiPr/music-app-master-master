@@ -9,8 +9,8 @@ export default function Category() {
     {categoryData.length === 0 ? (
       <p>No artist data available.</p>
     ) : (
-      categoryData.map((category) => (
-        <div className='category'>
+      categoryData.map((category,index) => (
+        <div  key={index} className='category'>
         <img className='category__image' src={bgimage} />
       </div>
       ))
