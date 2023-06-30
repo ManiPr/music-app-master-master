@@ -32,11 +32,6 @@ export default function Home() {
           <div className='category-wrapper sectoin-wrapper'>
             <div className='categories section-box center'>
              <Category></Category>
-             <Category></Category>
-              <Category></Category>
-              <Category></Category>
-              <Category></Category>
-              <Category></Category>
             </div>
       
           </div>
@@ -64,11 +59,6 @@ export default function Home() {
             <p className='category-podcast__view'>View All</p>
             </div>
             <div className='category-podcast__musics section-box center'>
-            <PodcastCategory></PodcastCategory>
-            <PodcastCategory></PodcastCategory>
-            <PodcastCategory></PodcastCategory>
-            <PodcastCategory></PodcastCategory>
-            <PodcastCategory></PodcastCategory>
             <PodcastCategory></PodcastCategory>
             </div>
           </div>
@@ -116,11 +106,6 @@ export default function Home() {
             </div>
             </div>
             <div className='artist__musics section-box center'>
-            <Artist></Artist>
-            <Artist></Artist>
-            <Artist></Artist>
-            <Artist></Artist>
-            <Artist></Artist>
             <Artist></Artist>
             </div>
           </div>

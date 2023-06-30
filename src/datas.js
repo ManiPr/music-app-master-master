@@ -1,5 +1,6 @@
 //اضافه کردن خود آهنگ یادت رفته حتما اضاف بکن
 import image from './assets/images/Image 59.png'
+import artistimage from './assets/images/Lou Reed.png'
 let MusicData =[
     {
         "Id":'1',
@@ -108,4 +109,82 @@ let MusicData =[
     },
     
 ]
-export {MusicData}
+let artistData=[
+    {
+        "Id":'1',
+        "Name":'FeradonFrakhzad',
+        'Image':{artistimage},
+        "songs":[]
+    },
+    {
+        "Id":'2',
+        "Name":'FeradonFrakhzad',
+        'Image':{artistimage},
+        "songs":[]
+    },
+    {
+        "Id":'3',
+        "Name":'FeradonFrakhzad',
+        'Image':{artistimage},
+        "songs":[]
+    },
+    {
+        "Id":'4',
+        "Name":'FeradonFrakhzad',
+        'Image':{artistimage},
+        "songs":[]
+    },
+    {
+        "Id":'5',
+        "Name":'FeradonFrakhzad',
+        'Image':{artistimage},
+        "songs":[]
+    }
+]
+let categoryData=[
+    {
+        "Id":'1',
+        "Name":'Programming',
+    },
+    {
+        "Id":'2',
+        "Name":'Rock',
+
+    },
+    {
+        "Id":'3',
+        "Name":'Pop',
+    },
+    {
+        "Id":'4',
+        "Name":'HipHop',
+    },
+    {
+        "Id":'5',
+        "Name":'Rock',
+    }
+]
+let podcastCategory=[
+    {
+        "Id":'1',
+        "Name":'Programming',
+    },
+    {
+        "Id":'2',
+        "Name":'Rock',
+
+    },
+    {
+        "Id":'3',
+        "Name":'Pop',
+    },
+    {
+        "Id":'4',
+        "Name":'HipHop',
+    },
+    {
+        "Id":'5',
+        "Name":'Rock',
+    }
+]
+export {MusicData,artistData,categoryData,podcastCategory}
