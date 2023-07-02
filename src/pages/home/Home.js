@@ -17,12 +17,8 @@ export default function Home() {
           <div className='recently-played__wrapper sectoin-wrapper'>
             <div className='recently-played__top sectoin-top center'>
             <p className='recetly-played__title section-title'>Recently played</p>
-            <div className='recently-played__buttons section-buttons'>
-            <img className='recently-played__button'      src={prev} />
-            <img className='recently-played__button next' src={next}  />
             </div>
-            </div>
-            <div className='recently-played__musics section-box center'>
+            <div className=''>
               <Music></Music>
               </div>
             
