@@ -7,27 +7,9 @@ import Category from '../../components/category/Category'
 import PodcastCategory from '../../components/podcast-category/PodcastCategory'
 import Artist from '../../components/artist/Artist'
 import NewReleases from '../browser/new-releases/NewReleases'
-import Slider from '../../components/slider/Slider'
-import {useState} from 'react'
+
 export default function Home() {
   
-  // const [slideIndex, setSlideIndex] = useState(0);
-  // const [sliderValue, setSliderValue] = useState([<Music />]);
-  // const goToNextSlide = () => {
-  //   if (slideIndex === sliderValue.length - 1) {
-  //     setSlideIndex(0);
-  //   } else {
-  //     setSlideIndex(slideIndex + 1);
-  //   }
-  // };
-
-  // const goToPreviousSlide = () => {
-  //   if (slideIndex === 0) {
-  //     setSlideIndex(sliderValue.length - 1);
-  //   } else {
-  //     setSlideIndex(slideIndex - 1);
-  //   }
-  };
   return (
     <>
       <section className='recently-played sectoin-margin-top '>
@@ -36,13 +18,13 @@ export default function Home() {
             <div className='recently-played__top sectoin-top center'>
             <p className='recetly-played__title section-title'>Recently played</p>
             <div className='recently-played__buttons section-buttons'>
-            <img className='recently-played__button' src={prev} onClick={goToPreviousSlide}/>
-            <img className='recently-played__button' src={next}  onClick={goToNextSlide}/>
+            <img className='recently-played__button'      src={prev} />
+            <img className='recently-played__button next' src={next}  />
             </div>
             </div>
             <div className='recently-played__musics section-box center'>
-            <Slider slides={sliderValue} ></Slider>
-            </div>
+              <Music></Music>
+              </div>
             
           </div>
           </div>
@@ -134,4 +116,4 @@ export default function Home() {
       <NewReleases></NewReleases>
     </>
   )
-}
+  }
