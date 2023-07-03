@@ -12,6 +12,7 @@ export default function Home() {
   
   return (
     <>
+    <div className='Home'>
       <section className='recently-played sectoin-margin-top '>
         <div className='container'>
           <div className='recently-played__wrapper sectoin-wrapper'>
@@ -103,6 +104,7 @@ export default function Home() {
         </div>
       </section>
       <NewReleases></NewReleases>
+      </div>
     </>
   )
   }
