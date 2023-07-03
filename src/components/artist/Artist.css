@@ -1,6 +1,7 @@
 .artist{
 position: relative;
 text-align: center;
+margin-left: -10rem;
 }
 .artist__image{
     border-radius: 50%;
@@ -12,7 +13,7 @@ text-align: center;
     content: '';
     background:var(--bg-hover);
     position:absolute;
-    width: 100%;
+    width: 53.5%;
     height: 86%;
     opacity: 50%;
     top: 0;

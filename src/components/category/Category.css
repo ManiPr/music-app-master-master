@@ -1,5 +1,6 @@
 .category{
   position: relative;
+  width: 76%;
 }
 .category__image{
   cursor: pointer;
@@ -8,7 +9,7 @@
   content: '';
   background:var(--bg-hover);
   position:absolute;
-  width: 100%;
+  width: 20%;
   height: 75%;
   opacity: 50%;
   border-radius: 1rem;

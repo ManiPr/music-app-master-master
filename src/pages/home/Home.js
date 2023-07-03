@@ -56,7 +56,7 @@ export default function Home() {
             <p className='category-podcast__title section-title'>PodCast</p>
             <p className='category-podcast__view'>View All</p>
             </div>
-            <div className='category-podcast__musics section-box center'>
+            <div className='category-podcast__musics section-box '>
             <PodcastCategory></PodcastCategory>
             </div>
           </div>
@@ -96,7 +96,7 @@ export default function Home() {
             <p className='artist__title section-title'>You might like these artists</p>
           
             </div>
-            <div className='artist__musics section-box center'>
+            <div className='artist__musics section-box '>
             <Artist></Artist>
             </div>
           </div>

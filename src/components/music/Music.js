@@ -28,25 +28,6 @@ export default function Music() {
       items: 3
     }
   };
-  // return (
-  //   <>
-  //   {MusicData.length === 0 ? (
-  //     <p>No music data available.</p>
-  //   ) : (
-  //     MusicData.map((music,index) => (
-  //       <div  key={index} className='music'>
-  //       <img className='music__image' src={playlist}/>
-  //       <p className='music__name'>{music.Name}</p>
-  //       <div className='music__content center'>
-  //         <img className='recently-played__button' src={heart}/>
-  //         <img className='recently-played__button' src={play}/>
-  //         <img className='recently-played__button' src={more}/>
-  //         </div>
-  //   </div>
-  //     ))
-  //   )}
-  // </>
-  // )
   const slides = MusicData.map((music, index) => (
     <div key={index} className='music'>
       <img className='music__image' src={playlist} alt='Playlist' />

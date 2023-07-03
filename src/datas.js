@@ -204,7 +204,25 @@ let artistData=[
         "Name":'FeradonFrakhzad',
         'Image':{artistimage},
         "songs":[]
-    }
+    },
+    {
+        "Id":'6',
+        "Name":'FeradonFrakhzad',
+        'Image':{artistimage},
+        "songs":[]
+    },
+    {
+        "Id":'7',
+        "Name":'FeradonFrakhzad',
+        'Image':{artistimage},
+        "songs":[]
+    },
+    {
+        "Id":'8',
+        "Name":'FeradonFrakhzad',
+        'Image':{artistimage},
+        "songs":[]
+    },
 ]
 let categoryData=[
     {
@@ -227,7 +245,23 @@ let categoryData=[
     {
         "Id":'5',
         "Name":'Rock',
-    }
+    },
+    {
+        "Id":'6',
+        "Name":'HipHop',
+    },
+    {
+        "Id":'7',
+        "Name":'HipHop',
+    },
+    {
+        "Id":'8',
+        "Name":'HipHop',
+    },  {
+        "Id":'9',
+        "Name":'HipHop',
+    },
+
 ]
 let podcastCategory=[
     {
@@ -250,7 +284,27 @@ let podcastCategory=[
     {
         "Id":'5',
         "Name":'Rock',
-    }
+    },
+    {
+        "Id":'6',
+        "Name":'HipHop',
+    },
+    {
+        "Id":'7',
+        "Name":'HipHop',
+    },
+    {
+        "Id":'8',
+        "Name":'HipHop',
+    },
+    {
+        "Id":'9',
+        "Name":'HipHop',
+    },
+    {
+        "Id":'10',
+        "Name":'HipHop',
+    },
 ]
 let responsive = {
   superLargeDesktop: {
