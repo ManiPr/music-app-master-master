@@ -11,12 +11,8 @@ export default function NewReleases() {
           <div className='new-releases__wrapper sectoin-wrapper'>
             <div className='new-releases__top sectoin-top center'>
             <p className='new-releases__title section-title'>This month's top releases</p>
-            <div className='new-releases__buttons section-buttons'>
-            <img className='new-releases__button' src={prev}/>
-            <img className='new-releases__button' src={next}/>
             </div>
-            </div>
-            <div className='new-releases__musics section-box center'>
+            <div className='new-releases__musics section-box '>
             <Music></Music>
             
             </div>
@@ -31,7 +27,7 @@ export default function NewReleases() {
               <p className='rock-newreleases__title section-title'>Rock new releases</p>
               <p className='rock-newreleases__view'>View All</p>
               </div>
-              <div className='rock-newreleases__musics section-box center'>
+              <div className='rock-newreleases__musics section-box '>
               <Music></Music>
               
               </div>

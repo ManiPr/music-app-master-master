@@ -18,7 +18,7 @@ export default function Home() {
             <div className='recently-played__top sectoin-top center'>
             <p className='recetly-played__title section-title'>Recently played</p>
             </div>
-            <div className=''>
+            <div className='section-box '>
               <Music></Music>
               </div>
             
@@ -28,7 +28,7 @@ export default function Home() {
       <section className='categories-section sectoin-margin-top'>
         <div className='container'>
           <div className='category-wrapper sectoin-wrapper'>
-            <div className='categories section-box center'>
+            <div className='categories section-box '>
              <Category></Category>
             </div>
       
@@ -42,7 +42,7 @@ export default function Home() {
             <p className='days__title section-title'>For Sunday</p>
             <p className='days__view'>View All</p>
             </div>
-            <div className='days__musics section-box center'>
+            <div className='days__musics section-box '>
             <Music></Music>
             </div>
             
@@ -68,12 +68,8 @@ export default function Home() {
           <div className='playlist__wrapper sectoin-wrapper'>
           <div className='playlist__top sectoin-top center'>
             <p className='playlist__title section-title'>Playlist picks</p>
-            <div className='playlist__buttons section-buttons center'>
-            <img className='playlist__button' src={prev}/>
-            <img className='playlist__button' src={next}/>
             </div>
-            </div>
-            <div className='playlist__musics section-box center'>
+            <div className='playlist__musics section-box '>
             <Music></Music>
             </div>
           </div>
@@ -86,7 +82,7 @@ export default function Home() {
             <p className='new-releases__title section-title'>New releases for you</p>
             <p className='new-releases__view'>View All</p>
             </div>
-            <div className='new-releases__musics section-box center'>
+            <div className='new-releases__musics section-box '>
             <Music></Music>
             </div>
             
@@ -98,10 +94,7 @@ export default function Home() {
           <div className='artist__wrapper sectoin-wrapper'>
           <div className='artist__top sectoin-top center'>
             <p className='artist__title section-title'>You might like these artists</p>
-            <div className='artist__buttons section-buttons center'>
-            <img className='artist__button' src={prev}/>
-            <img className='artist__button' src={next}/>
-            </div>
+          
             </div>
             <div className='artist__musics section-box center'>
             <Artist></Artist>

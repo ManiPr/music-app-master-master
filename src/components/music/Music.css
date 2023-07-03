@@ -1,6 +1,7 @@
 .music{
     position: relative;
     color: white;
+    width: 70%;
 }
 .music:hover:before{
     content: '';
@@ -11,6 +12,7 @@
     opacity: 50%;
     border-radius: 1rem;
     cursor: pointer;
+    overflow: none;
 }
 .music__content{
     gap: 2rem;
@@ -18,6 +20,7 @@
     top: 10rem;
     right: 5rem;
     display: none;
+    cursor: pointer;
 }
 .music:hover .music__content {
     display: flex;
