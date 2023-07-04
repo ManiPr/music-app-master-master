@@ -11,24 +11,7 @@ const GenresMoods = () => {
           <div className='genreses__top sectoin-top center'>
             <p className='genreses__title section-title'>Genres</p>
             </div>
-            <div className='genreses__genres section-box center'>
-                <Category></Category>
-                <Category></Category>
-                <Category></Category>
-                <Category></Category>
-                <Category></Category>
-                <Category></Category>
-                <Category></Category>
-                <Category></Category>
-                <Category></Category>
-                <Category></Category>
-                <Category></Category>
-                <Category></Category>
-                <Category></Category>
-                <Category></Category>
-                <Category></Category>
-                <Category></Category>
-                <Category></Category>
+            <div className='genreses__genres section-box center '>
                 <Category></Category>
             </div>
           </div>
@@ -41,17 +24,6 @@ const GenresMoods = () => {
             <p className='moodes__title section-title'>Moods</p>
             </div>
             <div className='moodes__genres section-box center'>
-                <Mood></Mood>
-                <Mood></Mood>
-                <Mood></Mood>
-                <Mood></Mood>
-                <Mood></Mood>
-                <Mood></Mood>
-                <Mood></Mood>
-                <Mood></Mood>
-                <Mood></Mood>
-                <Mood></Mood>
-                <Mood></Mood>
                 <Mood></Mood>
             </div>
           </div>

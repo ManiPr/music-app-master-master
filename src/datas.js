@@ -261,7 +261,92 @@ let categoryData=[
         "Id":'9',
         "Name":'HipHop',
     },
+    ,  {
+        "Id":'10',
+        "Name":'HipHop',
+    },
+    ,  {
+        "Id":'11',
+        "Name":'HipHop',
+    },
+    ,  {
+        "Id":'12',
+        "Name":'HipHop',
+    },
+    ,  {
+        "Id":'13',
+        "Name":'HipHop',
+    },
+    ,  {
+        "Id":'14',
+        "Name":'HipHop',
+    },
+    ,  {
+        "Id":'15',
+        "Name":'HipHop',
+    },
+    ,  {
+        "Id":'16',
+        "Name":'HipHop',
+    },
+    ,  {
+        "Id":'17',
+        "Name":'HipHop',
+    },
+    ,  
+    {
+        "Id":'18',
+        "Name":'HipHop',
+    }
 
+
+]
+let moodsData=[
+    {
+        "Id":'1',
+        "Name":'Party',
+    },
+    {
+        "Id":'2',
+        "Name":'Party',
+    }, {
+        "Id":'3',
+        "Name":'Party',
+    },
+    {
+        "Id":'4',
+        "Name":'Party',
+    },
+    {
+        "Id":'5',
+        "Name":'Party',
+    },
+    {
+        "Id":'6',
+        "Name":'Party',
+    },
+    {
+        "Id":'7',
+        "Name":'Party',
+    },
+    {
+        "Id":'8',
+        "Name":'Party',
+    },
+    {
+        "Id":'9',
+        "Name":'Party',
+    },
+    {
+        "Id":'10',
+        "Name":'Party',
+    }, {
+        "Id":'11',
+        "Name":'Party',
+    }, {
+        "Id":'12',
+        "Name":'Party',
+    },
 ]
 let podcastCategory=[
     {
@@ -327,4 +412,4 @@ let responsive = {
   },
 };
 
-export {MusicData,artistData,categoryData,podcastCategory,responsive}
+export {MusicData,artistData,categoryData,podcastCategory,responsive,moodsData}
