@@ -1,0 +1,21 @@
+.podcast-episode{
+}
+.podcast-episode__wrapper{
+    
+}
+.podcast-episode__image{
+ cursor: pointer;
+}
+.podcast-episode__content{
+    margin-left: 5rem;
+}
+.podcast-episode__title{
+    cursor: pointer;
+
+}
+.podcast-episode__caption{
+    cursor: pointer;
+
+    color: var(--text-hover);
+    font-size: 2rem;
+}
