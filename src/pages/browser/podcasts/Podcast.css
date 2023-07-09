@@ -1,17 +1,18 @@
 
-popular{
-
+.popular{
+gap: 2rem;
+justify-content: center;
 } 
-popular__wrapper{
+.popular__wrapper{
 
 }
     
-popular__top {
+.popular__top {
 
 }
-popular__title{
+.popular__title{
 
 }
-popular__musics{
+.popular__musics{
 
 }
