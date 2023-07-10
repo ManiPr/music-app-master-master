@@ -1,37 +1,23 @@
-import React, { useRef, useState } from 'react';
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-// import required modules
-import { Navigation } from 'swiper/modules';import  './Podcast.css'
-
-import Music from '../../../components/music/Music'
+import React from 'react'
 import PodcastEpisode from '../../../components/podcast-episode/PodcastEpisode'
 import Mood from '../../../components/mood/Mood'
-import {MusicData} from '../../../datas'
-import 'swiper/css/navigation';
+import './Podcast.css'
+import PodcastComponent from '../../../components/podcast-component/PodcastComponent'
 export default function Podcast() {
-  const [musicList, setmusicList] = useState(MusicData);
-console.log(musicList);
   return (
     <>
           <section className='week sectoin-margin-top '>
         <div className='container'>
           <div className='week__wrapper sectoin-wrapper'>
             <div className='week__top sectoin-top center'>
-            <p className='week__title section-title'>Recently played</p>
+            <p className='week__title section-title'>popular in week</p>
             </div>
-            <div className='section-box '>
-               <Swiper navigation={true} modules={[Navigation]} className='mySwiper' slidesPerView={4}>
-                {musicList.map((music) => (
-                  <SwiperSlide key={music.Id}>
-                    <Music props={music} />
-                  </SwiperSlide>
-                ))}
-              </Swiper>
+            <div className='section-box center'>
+              <PodcastComponent></PodcastComponent>
+              <PodcastComponent></PodcastComponent>
+              <PodcastComponent></PodcastComponent>
+              <PodcastComponent></PodcastComponent>
+              <PodcastComponent></PodcastComponent>
               </div>
           </div>
           </div>
@@ -44,6 +30,9 @@ console.log(musicList);
             <p className='featured-episodes__view'>View All</p>
             </div>
             <div className='featured-episodes__podcasts center section-box '>
+            <PodcastEpisode></PodcastEpisode>
+            <PodcastEpisode></PodcastEpisode>
+            <PodcastEpisode></PodcastEpisode>
             <PodcastEpisode></PodcastEpisode>
             <PodcastEpisode></PodcastEpisode>
             <PodcastEpisode></PodcastEpisode>
@@ -68,21 +57,12 @@ console.log(musicList);
   )
   
 }
-// سعیدی راد رو ببین و یه کامپوننت به نام صداها درست بکن بعد بهشون نوع بده که پادکست هستند یا آهنگ کل کار فردات اینه و پیاده سازی این صفحه بدون اهمال کاری اولین کار همین ولی به مدت 60 دقیقه بعدش برو سراغ ویدیو دیدن این رو تست کن ببین کدوم بهتره
-// {musicList.map(music => (
-//   <Swiper navigation={true} modules={[Navigation]} className="mySwiper" slidesPerView={3}>
-//   <SwiperSlide>
-//     {musicList.map(music => (
-//   <Swiper navigation={true} modules={[Navigation]} className="mySwiper" slidesPerView={3}>
-//   <SwiperSlide>
-    
-//   </SwiperSlide>
-//   {/* <Music key={music.Id} props={music} /> */}
-// </Swiper>
-
-// ))}
-//   </SwiperSlide>
-//   {/* <Music key={music.Id} props={music} /> */}
-// </Swiper>
-
-// ))}
+{
+  // const [musicList, setmusicList] = useState(MusicData);
+  /* <Swiper navigation={true} modules={[Navigation]} className='mySwiper' slidesPerView={4}>
+{musicList.map((music) => (
+  <SwiperSlide key={music.Id}>
+    <Music props={music} />
+  </SwiperSlide>
+))}
+</Swiper> */}

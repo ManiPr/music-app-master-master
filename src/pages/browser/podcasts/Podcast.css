@@ -1,18 +1,47 @@
-
-.popular{
-gap: 2rem;
-justify-content: center;
-} 
-.popular__wrapper{
+.week{
 
 }
-    
-.popular__top {
+.week__wrapper{
 
 }
-.popular__title{
+.week__top{
 
 }
-.popular__musics{
+.week__title{
+
+}
+.featured-episodes{
+
+}
+.featured-episodes__wrapper{
+
+}
+.featured-episodes__top{
+
+}
+.featured-episodes__title{
+
+}
+.featured-episodes__view{
+
+}
+.featured-episodes__podcasts{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+}
+.moodes{
+
+}
+.moodes__wrapper{
+
+}
+.moodes__top{
+
+}
+.moodes__title{
+
+}
+.moodes__genres{
 
 }

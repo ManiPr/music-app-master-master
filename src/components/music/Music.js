@@ -6,7 +6,6 @@ import heart from '../../assets/images/SVG File/heart.svg'
 import more from '../../assets/images/SVG File/more.svg'
 import play from '../../assets/images/SVG File/Play.svg'
 export default function Music({props}) {
-  console.log('fdsafd');
   return (
     <>
     <div className='music'>

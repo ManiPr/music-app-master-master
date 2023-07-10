@@ -4,7 +4,6 @@ import './PodcastEpisode.css'
 export default function PodcastEpisode() {
   return (
     <>
-        <div className='podcast-episode'>
             <div className='podcast-episode__wrapper center'>
                 <img className='podcast-episode__image' src={img} alt='Not found' />
                 <div className='podcast-episode__content'>
@@ -12,7 +11,6 @@ export default function PodcastEpisode() {
                     <p className='podcast-episode__caption'>I see the crotch of a polygon man</p>
                 </div>
             </div>
-        </div>
     </>
   )
 }
