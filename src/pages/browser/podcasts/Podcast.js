@@ -3,6 +3,7 @@ import PodcastEpisode from '../../../components/podcast-episode/PodcastEpisode'
 import Mood from '../../../components/mood/Mood'
 import './Podcast.css'
 import PodcastComponent from '../../../components/podcast-component/PodcastComponent'
+import PodcastDetail from '../../podcast-detail/PodcastDetail'
 export default function Podcast() {
   return (
     <>
@@ -12,12 +13,19 @@ export default function Podcast() {
             <div className='week__top sectoin-top center'>
             <p className='week__title section-title'>popular in week</p>
             </div>
-            <div className='section-box center'>
+            <div className='week__podcast section-box center'>
               <PodcastComponent></PodcastComponent>
               <PodcastComponent></PodcastComponent>
               <PodcastComponent></PodcastComponent>
               <PodcastComponent></PodcastComponent>
               <PodcastComponent></PodcastComponent>
+              <PodcastComponent></PodcastComponent>
+              <PodcastComponent></PodcastComponent>
+              <PodcastComponent></PodcastComponent>
+               <PodcastComponent></PodcastComponent>
+                <PodcastComponent></PodcastComponent>
+                <PodcastComponent></PodcastComponent>
+                <PodcastComponent></PodcastComponent>
               </div>
           </div>
           </div>
@@ -53,6 +61,7 @@ export default function Podcast() {
           </div>
         </div>
       </section>
+    <PodcastDetail></PodcastDetail>
     </>
   )
   

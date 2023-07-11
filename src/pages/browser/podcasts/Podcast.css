@@ -10,6 +10,11 @@
 .week__title{
 
 }
+.week__podcast{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(6,1fr);
+}
 .featured-episodes{
 
 }

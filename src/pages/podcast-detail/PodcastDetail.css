@@ -1,0 +1,50 @@
+.pocast-detail{
+}
+.podcast-detail__top{
+    justify-content: space-between;
+    margin:0 25rem ;
+}
+.podcast-detail__left{
+    
+}
+.podcast-detail__play{
+    padding: 1rem 8rem;
+    border-radius: 4rem;
+    background-image: linear-gradient(to right, #2dceef, #2ed3f2, #2fd8f4, #31ddf7, #34e2f9);
+    cursor: pointer;
+}
+
+.podcast-detail__play:hover{
+    color: black;
+}
+
+.podcast-detail__like{
+    cursor: pointer;
+
+}
+.podcast-detail__information{
+    cursor: pointer;
+
+}
+.podcast-detail__right{
+    align-content: center;
+    gap: 2rem;
+}
+.podcast-detail__image{
+    
+}
+.podcast-detail__content{
+    
+}
+.podcast-detail__title{
+    
+}
+.podcast-detail__caption{
+    
+}
+.podcast-detail__links{
+    
+}
+.podcast-detail__link{
+    
+}

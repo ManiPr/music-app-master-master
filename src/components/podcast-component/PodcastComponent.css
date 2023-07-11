@@ -13,7 +13,7 @@
 .podcast__container-image::before {
     content: "";
     position: absolute;
-    top: -2.3rem;
+    top: -2.4rem;
     left: 1rem;
     bottom: 0;
     width: 100%;
@@ -54,6 +54,6 @@
     cursor: pointer;
     display: none;
 }
-.podcast__wrapper:hover .podcast__content {
+.podcast__container-image:hover + .podcast__content {
     display: flex;
 }

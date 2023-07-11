@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="FOLLOW" transform="translate(-373 -579)">
+    <path id="heart" d="M2.438,2.377a6.382,6.382,0,0,0,0,9.062L11.55,20.5l9.113-9.062a6.382,6.382,0,0,0,0-9.062,6.469,6.469,0,0,0-9.113,0A6.469,6.469,0,0,0,2.438,2.377Z" transform="translate(381.449 589.1)" fill="#2dceef"/>
+    <g id="Rectangle_2822" data-name="Rectangle 2822" transform="translate(373 579)" fill="none" stroke="#fff" stroke-width="1.5">
+      <rect width="40" height="40" rx="20" stroke="none"/>
+      <rect x="0.75" y="0.75" width="38.5" height="38.5" rx="19.25" fill="none"/>
+    </g>
+  </g>
+</svg>
