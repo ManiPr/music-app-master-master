@@ -4,7 +4,7 @@ import Artist from '../../components/artist/Artist'
 const Category = () => {
     return (
         <>
-             <section className='artists sectoin-margin-top'>
+          <section className='artists sectoin-margin-top'>
         <div className='container'>
           <div className='artist__wrapper sectoin-wrapper'>
           <div className='artist__top sectoin-top center'>
@@ -16,7 +16,7 @@ const Category = () => {
             </div>
           </div>
         </div>
-      </section>
+          </section>
         </>
     );
 }

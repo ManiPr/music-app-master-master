@@ -1,18 +1,29 @@
-.music{
-    position: relative;
-    color: white;
-    width: 70%;
+/* .music{
+   
 }
-.music:hover:before{
-    content: '';
-    background:var(--bg-hover);
-    position:absolute;
+.music__image-container{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.music__image-container::before{
+    content: "";
+    position: absolute;
+    top: -2.4rem;
+    left: 1rem;
+    bottom: 0;
     width: 100%;
-    height: 86%;
-    opacity: 50%;
-    border-radius: 1rem;
+    height: 100%;
+    background-color: red;
+    opacity: 0;
+    transition: opacity 0.3s;
     cursor: pointer;
     overflow: none;
+    border-top-right-radius: 6.2rem;
+}
+
+.music__container-image:hover::before {
+    opacity: 50%;
 }
 .music__content{
     gap: 2rem;
@@ -26,8 +37,109 @@
     display: flex;
 }
 .music__image{
-
+    
 }
 .music__name{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.music__container-image::before {
+    content: "";
+    position: absolute;
+    top: -2.4rem;
+    left: 1rem;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-hover);
+    opacity: 0;
+    transition: opacity 0.3s;
+    cursor: pointer;
+    overflow: none;
+    border-top-right-radius: 6.2rem;
+}
+  
+.music__container-image:hover::before {
+    opacity: 50%;
+} */
+.music{
+}
+.music__wrapper{
+    flex-direction: column;
+    position: relative;
+}
+
+.music__container-image{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.music__container-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height: 96.5%;
+    background-color: var(--bg-hover);
+    opacity: 0;
+    transition: opacity 0.3s;
+    cursor: pointer;
+    overflow: hidden;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius:1rem;
+    border-bottom-right-radius:1rem;
+}
+  
+.music__container-image:hover::before {
+    opacity: 50%;
+}
+.music__image{
+    cursor: pointer;
+    
+}
+.music__information{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.music__name{
+    cursor: pointer;
+
+}
+.music__creator{
+    font-size: 2rem;
+    color: var(--text-hover);
+    cursor: pointer;
+
+}
+.music__content{
+    top: 10rem;
+    right: 7rem;
+    position: absolute;
+    gap: 2rem;
+    cursor: pointer;
+    display: none;
+}
+.music__container-image:hover + .music__content {
+    display: flex;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  left: 50%;
+  transform: translateY(-70%);
+  --swiper-navigation-color:var(--white);
 
 }

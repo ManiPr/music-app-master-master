@@ -5,6 +5,7 @@ import './Podcast.css'
 import PodcastComponent from '../../../components/podcast-component/PodcastComponent'
 import PodcastDetail from '../../podcast-detail/PodcastDetail'
 export default function Podcast() {
+
   return (
     <>
           <section className='week sectoin-margin-top '>
@@ -66,12 +67,12 @@ export default function Podcast() {
   )
   
 }
-{
-  // const [musicList, setmusicList] = useState(MusicData);
-  /* <Swiper navigation={true} modules={[Navigation]} className='mySwiper' slidesPerView={4}>
-{musicList.map((music) => (
-  <SwiperSlide key={music.Id}>
-    <Music props={music} />
-  </SwiperSlide>
-))}
-</Swiper> */}
+// {
+//    const [musicList, setmusicList] = useState(MusicData);
+//    <Swiper navigation={true} modules={[Navigation]} className='mySwiper' slidesPerView={4}>
+// {musicList.map((music) => (
+//   <SwiperSlide key={music.Id}>
+//     <Music props={music} />
+//   </SwiperSlide>
+// ))}
+// </Swiper> }
