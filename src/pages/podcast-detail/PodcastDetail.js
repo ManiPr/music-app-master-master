@@ -1,17 +1,18 @@
 import React from 'react'
 import './PodcastDetail.css'
+import img from '../../assets/images/PodCast-Component.png'
 export default function PodcastDetail() {
   return (
     <>
     <div className='pocast-detail'>
         <section className='podcast-detail__top center'>
            
-            <div className='podcast-detail__left'>
-                <img className='podcast-detail__image' />
+            <div className='podcast-detail__left center'>
+                <img src={img} className='podcast-detail__image' />
                 <div className='podcast-detail__content'>
                     <h4 className='podcast-detail__title'>StarTalk Radio</h4>
                     <p className='podcast-detail__caption'>Neil deGrasse Tyson</p>
-                    <div className='podcast-detail__links'>
+                    <div className='podcast-detail__links center'>
                         <a className='podcast-detail__link'>EPISODES</a>
                         <a className='podcast-detail__link'>ABOUT</a>
                     </div>
