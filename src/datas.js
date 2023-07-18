@@ -1,92 +1,91 @@
 //اضافه کردن خود آهنگ یادت رفته حتما اضاف بکن
-import image from './assets/images/Image 59.png'
 import artistimage from './assets/images/Lou Reed.png'
 let MusicData =[
     {
         "Id":'1',
         "Name":'HEF',
         "Artist":'Koud',
-        'Image':image,
+        'Image':'HEF.png',
         "AddToLibrary":'false',
         'Play':'false',
         'Repeat':'false'
     },
     {
         "Id":'2',
-        "Name":'fdasfds',
-        "Artist":'Koud',
-        'Image':image,
+        "Name":'LP5',
+        "Artist":'Apparat',
+        'Image':'LP5.png',
         "AddToLibrary":'false',
         'Play':'false',
         'Repeat':'false'
     }, 
     {
         "Id":'3',
-        "Name":'fadsf',
-        "Artist":'Koud',
-        'Image':image,
+        "Name":'Numb Numb Juice',
+        "Artist":'Schoolboy Q',
+        'Image':'Numb Numb Juice.png',
         "AddToLibrary":'false',
         'Play':'false',
         'Repeat':'false'
     },
        {
         "Id":'4',
-        "Name":'a',
-        "Artist":'Koud',
-        'Image':image,
+        "Name":'Drip or Down 2',
+        "Artist":'Gunna',
+        'Image':'Drip or Down 2.png',
         "AddToLibrary":'false',
         'Play':'false',
         'Repeat':'false'
     },
     {
         "Id":'5',
-        "Name":'d',
-        "Artist":'Koud',
-        'Image':image,
+        "Name":'Dance',
+        "Artist":'Remy Van Kesteren',
+        'Image':'Dance.png',
         "AddToLibrary":'false',
         'Play':'false',
         'Repeat':'false'
     },
        {
         "Id":'6',
-        "Name":'f',
-        "Artist":'Koud',
-        'Image':image,
+        "Name":'Dont Feed the Pop Monster',
+        "Artist":'Broods',
+        'Image':'Dont Feed the Pop Monster.png',
         "AddToLibrary":'false',
         'Play':'false',
         'Repeat':'false'
     },
     {
         "Id":'7',
-        "Name":'g',
-        "Artist":'Koud',
-        'Image':image,
+        "Name":'Lemonade',
+        "Artist":'Beyonce',
+        'Image':'Lemonade.png',
         "AddToLibrary":'false',
         'Play':'false',
         'Repeat':'false'
     },
        {
         "Id":'8',
-        "Name":'j',
-        "Artist":'Koud',
-        'Image':image,
+        "Name":'Lost Planet',
+        "Artist":'Smokepurpp',
+        'Image':'Lost Planet.png',
         "AddToLibrary":'false',
         'Play':'false',
         'Repeat':'false'
     },   {
         "Id":'9',
-        "Name":'k',
-        "Artist":'Koud',
-        'Image':image,
+        "Name":'Ghettobaby',
+        "Artist":'Kevin Abstract',
+        'Image':'Ghettobaby.png',
         "AddToLibrary":'false',
         'Play':'false',
         'Repeat':'false'
     },
     {
         "Id":'10',
-        "Name":'HEF',
-        "Artist":'Koud',
-        'Image':image,
+        "Name":'Not Waving, But Drowning',
+        "Artist":'Loyle Carner',
+        'Image':'Not Waving, But Drowning.png',
         "AddToLibrary":'false',
         'Play':'false',
         'Repeat':'false'

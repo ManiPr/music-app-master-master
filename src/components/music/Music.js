@@ -1,28 +1,22 @@
 import React from 'react'
-
-import playlist from '../../assets/images/PLAYLIST RADIO.png'
 import './Music.css'
+
 import heart from '../../assets/images/SVG File/heart.svg'
 import more from '../../assets/images/SVG File/more.svg'
 import play from '../../assets/images/SVG File/Play.svg'
 export default function Music({props}) {
+{console.log(require('../../assets/images/Musics/LP5.png'));}
   return (
     <>
-      {/* <div className='music__image-container'>
-      <img className='music__image' src={playlist} alt='Playlist' />
-      </div>
-      <p className='music__name'>
-        {props.Name}
-      </p> */}
        <div className='music center'>
         <div className='music__wrapper'>
             <div className='music__container-image'>
-            <img className='music__image' src={playlist} alt='Playlist' />
+            <img className='music__image'  src={require(`../../assets/images/Musics/${props.Image}`)} alt='Playlist' />
             </div>
      
         <div className='music__information center'>
         <p className='music__name'>
-        David Tennant Does a Podc...
+        {props.Name}
         </p>
         <p className='music__creator'>Like Count</p>
         </div>

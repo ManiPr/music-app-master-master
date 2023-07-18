@@ -34,7 +34,8 @@
 }
 .music__image{
     cursor: pointer;
-    
+    width: 20rem;
+    height: 20rem;
 }
 .music__information{
     flex-direction: column;
