@@ -16,7 +16,7 @@ export default function App() {
           {router}
         </div>
         </main>
-        <PlayMusic></PlayMusic>
+        <PlayMusic className='play-music'></PlayMusic>
     </>
   );
 }
