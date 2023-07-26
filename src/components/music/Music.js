@@ -5,13 +5,6 @@ import heart from '../../assets/images/SVG File/heart.svg'
 import more from '../../assets/images/SVG File/more.svg'
 import play from '../../assets/images/SVG File/Play.svg'
 export default function Music({props}) {
-  import React from 'react'
-import './Music.css'
-
-import heart from '../../assets/images/SVG File/heart.svg'
-import more from '../../assets/images/SVG File/more.svg'
-import play from '../../assets/images/SVG File/Play.svg'
-export default function Music({props}) {
 {console.log(require('../../assets/images/Musics/LP5.png'));}
   return (
     <>
@@ -37,6 +30,4 @@ export default function Music({props}) {
       </div>
     </>
   );
-}
-
 }

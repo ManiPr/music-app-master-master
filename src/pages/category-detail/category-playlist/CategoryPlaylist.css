@@ -1,0 +1,26 @@
+.category-playlist{
+
+}
+.category-palylist{
+
+}
+.category-palylist__wrapper{
+
+}
+.category-palylist__top{
+
+}
+.category-palylist__title{
+
+}
+.category-palylist__caption{
+
+}
+.category-palylist__musics {
+ 
+}
+.category-playlist__musics{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
