@@ -10,7 +10,7 @@ const GenresMoods = () => {
           <div className='genreses__wrapper '>
           <div className='genreses__top sectoin-top center'>
             <p className='genreses__title section-title'>Genres</p>
-            </div>
+            </div> 
             <div className='genreses__genres section-box center '>
                 <Category></Category>
             </div>

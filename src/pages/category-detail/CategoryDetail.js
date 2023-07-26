@@ -9,7 +9,6 @@ import Artist from '../../components/artist/Artist'
 
 export default function CategoryDetail() {
   const [musicList, setMusicList] = useState(MusicData);
-console.log(musicList);
   return (
     <>
       <div className='category-detail'>
